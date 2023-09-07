@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("../photos/background.jpg");
+    background-position: revert;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #cbc0a1;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    transform: translatey(20px);
+}
+nav ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #a16c0d;
+    font-weight: bold;
+}
+.information{
+    height: 100vh;
+    
+}
+.cart {
+    width: 400px;
+    margin: auto;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product img {
+    width: 100px;
+  }
+  
+  .product h3, .product p {
+    margin-left: 10px;
+  }
+  
+  .checkout {
+    text-align: right;
+  }
+
+.information h1{
+    font-size: 70px;
+    font-family: cursive;
+    color: #b1926a;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+
+
+.information h3{
+    width: 426px;
+    text-align: center;
+    font-size: 35px;
+    color: #e99700;
+    transform: translateY(47%);
+    margin-left: 30px;
+
+}
+.description{
+    height: 80vh;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 30px;
+}
+@media (min-width:0px) and (max-width:550px) {
+    .description{
+        height: 40vh;
+    }
+}
+
+@media (max-width:1100px) {
+    .description img:nth-of-type(2){ 
+        transform: translate(790px, -79px);
+}
+}
+@media (min-width:1101px) {
+    .description img:nth-of-type(2){ 
+        transform: translate(960px, -79px);
+}
+}
+.description h2 , h2{
+    text-align: center;
+    font-size: 50px;
+    color: #ff7614b8;
+}
+.description p{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 35px;
+    color: #4e4131;
+}
+.description button{
+    width: 15%;
+    font-size: 25px;
+    color: brown;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid brown;
+    margin-left: 42%;
+    margin-top: 20px;
+}
+.description button:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+.salary{
+    height: 100vh;
+    padding: 30px;
+    border-radius: 30px;
+}
+@media (max-width:550px) {
+    .salary{
+        height: 40vh;
+    }
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.salary .one{
+    background-color: white;
+    width: 250px;
+    height: 430px;
+}
+.salary .one img{
+    width: 250px;
+    height: 330px;
+    opacity: 0.7;
+}
+.salary .one img:hover{
+    opacity: 1;
+}
+.salary .one p{
+    font-size: 34px;
+    text-align: center;
+    height: 41px
+}
+.salary .one pre{
+    font-size: 20px;
+    color: #be761d;
+    text-align: center;
+}
+.salary .one pre span{
+    color: brown;
+}
+.contactus{
+    height: 400px;
+    background-image: url("../photos/quote.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 75px;
+
+}
+.contactus p{
+    width: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 33px;
+    color: #872020;
+    font-style: italic;
+    font-weight: bold;
+}
+.contactus p span{
+    
+    color: #e99700;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.call{
+    width: 500px;
+    height: 536px;
+    color: black;
+    background-color: beige;
+    margin-top: -72px;
+    position: absolute;
+    right: 20px;
+}
+.call form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.call form input{
+    border: transparent;
+    width: 400px;
+    color: #872020;
+    margin-left: 30px;
+    height: 40px;
+    font-size: 24px;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+}
+.call form label{
+    font-size: 28px;
+    margin-left: 30px;
+    color: #872020;
+}
+.call form button{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 66px;
+    font-size: 30px;
+    background-color: transparent;
+    border: 1px dashed brown;
+    border-radius: 45px;
+    color: #be761d;
+    font-style: italic;
+    font-weight: bold;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+        nav {
+            background-color: #ccc;
+            padding: 10px;
+            text-align: center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 80px;
+        }

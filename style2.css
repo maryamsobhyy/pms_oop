@@ -1,0 +1,31 @@
+.container {
+    width: 300px;
+    margin: auto;
+    padding: 190px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  button {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    width: 100%;
+  }
+  
